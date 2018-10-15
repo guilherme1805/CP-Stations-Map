@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: red !important;
+}
+
+#wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#station-container {
+    position: absolute;
+    z-index: 99;
+    width: 40%;
+    min-width: 500px;
+    max-width: 600px;
+    max-height: 85%;
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 10px;
+    overflow-y: scroll;
+    overflow: hidden;
+
+}
+
+#station-container a {
+    text-decoration: none;
+    color: #212529;
+}
+
+#station-container a:hover {
+    color: #17843C;
+}
+
+#station-container h1 {
+    margin-bottom: 20px;
+}
+
+#station-container i {
+    font-size: 15px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#station-container .btn-link {
+    color: #74B751;
+    font-weight: bold;
+}
+
+#station-container .btn-link:hover {
+    text-decoration: none;
+}
+
+#accordion .collapsed{
+    font-weight: normal !important;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+}
