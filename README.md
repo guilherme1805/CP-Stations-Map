@@ -1,5 +1,5 @@
 # CP-Stations-Map
-Interactive map showing all train stations from CP (Comboio de Portugal).
+Interactive map showing all train stations from CP (Comboios de Portugal).
 
 ![](img.png)
 
